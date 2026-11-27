@@ -1,0 +1,16 @@
+[package]
+name = "simple_voice_chat"
+version = "26.11.7"
+edition.workspace = true
+license.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+weft_sdk.workspace = true
+parking_lot.workspace = true
+cpal = "0.18"
+
+[package.metadata.weft]
+dist = true
