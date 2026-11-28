@@ -1,6 +1,6 @@
 [package]
 name = "simple_voice_chat"
-version = "26.11.7"
+version = "26.11.8"
 edition.workspace = true
 license.workspace = true
 
